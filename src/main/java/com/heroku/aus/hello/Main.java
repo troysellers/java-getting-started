@@ -23,6 +23,8 @@ public class Main {
     staticFileLocation("/public");
 
     get("/hello", (req, res) -> "Hello World");
+    
+   get("/.well-known/acme-challenge/wwizlMm0sN1MzqpYvpCSc7zVw7Jid-RSV6XfQbK9GnU", (req, res) -> "wwizlMm0sN1MzqpYvpCSc7zVw7Jid-RSV6XfQbK9GnU.edcuzuKjUypi2zdt6-5_CLqv5X5y7iSKUx8pC4RnpLE");
 
     get("/", (request, response) -> {
         Map<String, Object> attributes = new HashMap<>();
