@@ -22,7 +22,7 @@ public class TestUtility {
 	public void testNumberAdd() {
 		Utility u = new Utility();
 		int result = u.addTwoNumbers(num1, num2);
-		Assert.assertEquals(5, result);
+		Assert.assertEquals(6, result);
 		
 	}
 	
