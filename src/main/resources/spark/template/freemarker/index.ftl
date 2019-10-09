@@ -13,7 +13,7 @@
     <a href="/" class="lang-logo">
       <img src="/lang-logo.png">
     </a>
-    <h1>Here we go again and again!!</h1>
+    <h1>Here we go again and again 3!!</h1>
   <p>This is a sample Java application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
 
 
